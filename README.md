@@ -1,2 +1,2 @@
 # JavaScript-Course-Youtube
- Curso de Java Script ministrado pelo professor Edson Maia. Neste arquivo terá anotações das aulas, exercícios e projetos. Curso gratuito do youtube.
+Java Script course taught by professor Edson Maia. This file will contain class notes, exercises and projects. Free youtube course.
