@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vh;
+    background-image: linear-gradient(to right, rgb(14, 14, 140), rgb(121, 121, 195), rgb(164, 164, 211));
+    overflow-x: hidden;
+}
+main {
+    width: 100%;
+    padding: 1rem;
+}
+
+section {
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.form-group {
+    margin: 0.625rem;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=number], input[type=text] {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.botao {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+div {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+#resultadoImc {
+    border: 1px solid #ccc;
+    width: 60px;
+}
+
+#aviso {
+    font-weight: bold;
+}
+
+#bntEnviar {
+    background-color: rgb(89, 84, 84);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+#resultado {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.pessoa {
+    padding: 0.625rem
+}
+
+#resultado {
+    box-shadow: 2px 2px 2px black;
+    color: rgb(73, 73, 202);
+}
+
+input {
+    box-shadow: 2px 2px 2px black;
+}
