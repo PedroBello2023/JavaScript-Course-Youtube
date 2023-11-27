@@ -51,9 +51,10 @@ input[type=number], input[type=text] {
     cursor: pointer;
 }
 
-div {
+.form-group {
     color: white;
     text-shadow: 2px 2px 2px black;
+    
 }
 
 h1 {
@@ -67,13 +68,21 @@ h1 {
 #resultadoImc {
     border: 1px solid #ccc;
     width: 60px;
+    background-color: white;
 }
 
 #aviso {
     font-weight: bold;
 }
 
-#bntEnviar {
+#btnEnviar {
+    background-color: rgb(89, 84, 84);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+#btnLimpar {
     background-color: rgb(89, 84, 84);
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -93,11 +102,17 @@ h1 {
     padding: 0.625rem
 }
 
-#resultado {
+#resultado h2 {
     box-shadow: 2px 2px 2px black;
-    color: rgb(73, 73, 202);
+    color: rgb(111, 111, 177);
+    text-shadow: 2px 2px 2px black;
 }
 
 input {
     box-shadow: 2px 2px 2px black;
+}
+
+#resultado p {
+    box-shadow: 2px 2px 2px black;
+    color: black;
 }
